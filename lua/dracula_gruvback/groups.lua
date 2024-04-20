@@ -26,7 +26,7 @@
 ---@alias HighlightGroups table<string, Highlight>
 
 ---setup highlight groups
----@param configs DraculaConfig
+---@param configs dracula_gruvbackConfig
 ---@return HighlightGroups
 ---@nodiscard
 local function setup(configs)
